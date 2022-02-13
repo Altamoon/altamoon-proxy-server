@@ -1,0 +1,43 @@
+{
+  "name": "altamoon-proxy-server",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Express.js server to proxy restricted Binance API requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Altamoon/altamoon-proxy-server.git"
+  },
+  "keywords": [
+    "altamoon"
+  ],
+  "author": {
+    "name": "Letiliel",
+    "email": "dev@xod.me",
+    "url": "https://github.com/Letiliel"
+  },
+  "contributors": [
+    {
+      "name": "Andrey Gubanov",
+      "email": "andrey@gubanov.eu",
+      "url": "https://opensource.gubanov.eu/"
+    }
+  ],
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Altamoon/altamoon-proxy-server/issues"
+  },
+  "homepage": "https://github.com/Altamoon/altamoon-proxy-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-http-proxy": "^1.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
